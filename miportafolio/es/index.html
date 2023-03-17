@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- META -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ivan Piutrin">
+    <meta name="description" content="Mi Portafolio">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap, Frontend, Frontend Developer, Web Developer">
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/cofy.png">
+    <title>Ivan Piutrin</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <!-- JS -->
+    <script defer src="../js/script.js"></script>
+    <!-- SCROLL REVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/0ce218d0bf.js" crossorigin="anonymous"></script>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ** ----- Header ----- **-->
+
+    <header id="header">
+        <!-- ** ----- Nav - Menu ----- ** -->
+
+        <div class="container">
+
+            <nav>
+
+                <h1 class="main-title"><span class="main-title indigo">Iván</span>Piutrin</h1>
+                
+
+                <ul id="side-menu">
+
+                    <li>
+                        <a href="#header">Inicio</a>
+                    </li>
+
+                    <li>
+                        <a href="#about">Acerca de</a>
+                    </li>
+
+                    <li>
+                        <a href="#portfolio">Portafolio</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact">Contacto</a>
+                    </li>
+
+                    
+
+                 
+
+                </ul>
+
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+
+            </nav>
+
+            <div class="header-text">
+
+                <div class="typed-container">
+                    <div class="typed-out indigo">Analista Programador</div>                
+                </div>
+
+                <h2>Que tal, soy <span class="indigo">Iván Piutrin</span> <br> desde la comuna de Nueva Imperial, Chile</h2>
+
+               
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- Menu -->
+
+    <main>
+
+        <!--  About   -->
+
+        <section id="about">
+
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="../img/ivanpiutrin.jpeg" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h2 class="subtitle">Sobre mí</h2>
+
+                        <p class="about-paragraph">
+                           Egresado del Instituto Profesional Inacap Temuco como Analista Programador, En Busca de 
+                           nuevo desafio y aprendizajes como Programador full stack y desarrollador móvil.
+                        </p>
+
+                        <div class="tab-title">
+                            <p class="tab-link">Stack</p>
+                        </div>
+
+                        <div class="tab-content">
+                            <p class="indigo">Lenguajes</p>
+                            <ul>
+                                <li>
+                                    <p>Java</p>
+                                </li>
+                                <li>
+                                    <p>Python</p>
+                                </li>
+                                <li>
+                                    <p>JavaScript</p>
+                                </li>
+                                <li>
+                                    <p>Kotlin</p>
+                                </li>
+                                <li>
+                                    <p>C#</p>
+                                </li>
+                                <li>
+                                    <p>HTML</p>
+                                </li>
+                                <li>
+                                    <p>CSS</p>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-content">
+                            <p class="indigo">Frameworks & Librerías</p>
+                            <ul>
+                                <li>
+                                    <p>Bootstrap</p>
+                                </li>
+
+                                <li>
+                                    <p>React</p>
+                                </li>
+
+                                <li>
+                                    <p>Django</p>
+                                </li>
+                            </ul>
+                        </div>  
+
+                        <div class="tab-content">
+                            <p class="indigo">Motores DB</p>
+                            <ul>
+                                <li>
+                                    <p>MySQL</p>
+                                </li>                                
+                               
+                            </ul>
+                        </div>
+                        <div class="tab-title">
+                            <p class="tab-link">Aptitudes</p>
+                        </div>
+                        <div class="tab-content">
+                            
+                            <ul>
+                                <li>
+                                    <p>Responsabilidad</p>
+                                </li>                                
+                                <li>
+                                    <p>Adaptabilidad</p>
+                                </li>
+
+                                <li>
+                                    <p>Proactividad</p>
+                                </li> 
+                                
+                                <li>
+                                    <p>Aprendizaje Rápido</p>
+                                </li> 
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+  
+        <!-- ** Portafolio o Proyectos ** -->
+
+        <section id="portfolio">
+
+            <div class="container">
+
+                <h2 class="subtitle">Proyectos</h2>
+                <p class="portfolio-attribution"></p>
+
+                <div class="work-list">
+                    
+                    <div class="work">
+                        <img src="../img/Portafolio.png" alt="work-1">
+
+                        <div class="layer">
+
+                            <h3>Mi Portafolio</h3>
+
+                            <p>HTML - CSS - JS</p>
+
+                            <div>
+                                <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                                
+                                <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    
+                    <div class="work">
+                        <img src="../img/eventos.png" alt="work-1">
+
+                        <div class="layer">
+
+                            <h3>Evento</h3>
+    
+                            <p>HTML - CSS</p>
+    
+                            <div>
+                                <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                                
+                                <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+    
+                        </div>
+
+
+                    </div>
+
+
+
+               
+                 
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- **  Contactos ** -->
+
+        <section id="contact">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="contact-left">
+
+                        <h2 class="subtitle">Contacto</h2>
+                        <p>
+                            <a href="mailto:ivanpiutrin.h@gmail.com"><i class="fa-solid fa-envelope"></i> ivanpiutrin.h@gmail.com</a>
+                        </p>
+
+                        <div class="social-icons">
+                            <a href="https://github.com/Ivanpiutrin" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/ivan-piutrin-55a37722a/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+
+                        <a href="../pdf/curriculumvitae.pdf" target="_blank" class="btn btn2">Descargar CV</a>
+
+                    </div>
+
+                    <div class="contact-right">
+
+                       
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            
+
+        </section>
+
+    </main>
+    
+</body>
+</html>
